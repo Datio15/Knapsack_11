@@ -40,7 +40,10 @@ Gọi dp[i][w] là giá trị lớn nhất có thể đạt được khi xét i 
 -	  1.Dùng mảng dp để nhớ các kết quả đã tính.
 -	Nếu dp[i][w] đã tính rồi thì trả về ngay thay vì tính lại.
 - Bước 3: Kết quả tối ưu nhất nằm ở ô dp[n][W]
-
+### Ưu điểm: 
+- Tránh tính toạn lặp lại nhờ lưu vào bảng nhớ giúp giảm thời gian chạy so với đệ quy thuần túy.
+### Nhược điểm:
+- Do vẫn sử dụng đệ quy nên khi N quá lớn có thể gây tràn bộ nhớ 
 
 ---
 
